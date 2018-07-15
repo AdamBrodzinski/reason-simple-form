@@ -1,0 +1,28 @@
+{
+  "name": "re-simple-form",
+  "version": "0.1.0",
+  "description": "A simple form solution for ReasonML",
+  "files": [
+    "src/SimpleForm_Utils.re",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "reason",
+    "reasonml",
+    "form",
+    "reason-react"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.0",
+    "jest": "22.1.2",
+    "@glennsl/bs-jest": "0.3.2"
+  },
+  "author": "Adam Brodzinski",
+  "license": "MIT"
+}
